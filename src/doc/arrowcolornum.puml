@@ -1,0 +1,23 @@
+@startuml
+
+autonumber "[000]"
+
+Bob -[#red]> Alice : Hello
+
+Bob /-[#blue]- Alice : How are you
+
+Bob ->o Alice : How are you
+
+autonumber 10 5 "<font color=blue ><b> Msg 0"
+
+Bob o<->o Alice : How are you
+
+Bob ->x Alice : How are you
+
+newpage A title to \n next page
+
+Bob -> Alice : Hello
+
+
+
+@enduml

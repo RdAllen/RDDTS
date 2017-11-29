@@ -1,0 +1,12 @@
+@startuml
+
+Alice -> Bob : Auth Req
+Bob -->Alice : Auth Rsq
+
+Alice -> Bob: Auth Rep
+Alice <-- Bob: Auth Rsp
+
+
+
+
+@enduml

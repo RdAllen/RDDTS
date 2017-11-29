@@ -1,0 +1,26 @@
+@startuml
+
+
+:User: as  Men
+
+:User2: as  Men2
+
+Men -> Men2
+
+(usercase)
+
+usecase (case) as uc4
+
+
+User -> (start)
+User --> (Use the App) : A small test
+:Main: --->  (Use the App)
+
+:Person: <|-- :Asian:
+
+
+(:Person:) <|-- (:Asian:)
+
+
+
+@enduml
