@@ -18,8 +18,19 @@ public interface Queue {
 
   public Object front() throws ExceptionQueueEmpty;
 
+  /**
+   * 入队
+   */
   public void enqueue(Object obj) throws ExceptionQueueFull;
 
+  /**
+   * 出队
+   */
   public Object dequeue() throws ExceptionQueueEmpty;
+
+  /**
+   * 遍历
+   */
+  public void Traversal();
 
 }

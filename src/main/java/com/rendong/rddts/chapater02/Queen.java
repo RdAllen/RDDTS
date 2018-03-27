@@ -7,8 +7,14 @@
  */
 package com.rendong.rddts.chapater02;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author RenDong
  */
 public class Queen {
+  public static void main(String args[]) {
+      Map map  = new HashMap();
+  }
 }
