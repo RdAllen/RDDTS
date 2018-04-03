@@ -18,6 +18,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
  * @author RenDong
+ *
+ * branch 0.1
  */
 public class DiscardServer {
   private int port;
