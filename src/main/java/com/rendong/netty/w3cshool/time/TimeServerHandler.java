@@ -28,7 +28,6 @@ public class TimeServerHandler extends ChannelInboundHandlerAdapter {
 
     final ChannelFuture f = ctx.writeAndFlush(time); // (3)
     f.addListener(new ChannelFutureListener() {
-      @Override
       public void operationComplete(ChannelFuture future) {
         assert f == future;
         ctx.close();
